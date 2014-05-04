@@ -1,0 +1,125 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/*------------------------------------*\
+    SOME 
+\*------------------------------------*/
+/* global box-sizing */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+/* clear */
+.clear:before,
+.clear:after {
+  content: ' ';
+  display: table; 
+}
+
+.clear:after {
+  clear: both;
+}
+
+.clear {
+  *zoom: 1; 
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom; 
+}
+
+a:focus {
+  outline: 0; 
+}
+
+a:hover,
+a:active {
+  outline: 0; 
+}
+
+input:focus {
+  outline: 0;
+  border: 1px solid #04a4cc; 
+}
+
+ul {
+  padding: 0; }
+
+/* html element 62.5% font-size for REM use */
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  font: 300 11px/1.4  font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #fff;
+}
+
+/*------------------------------------*\
+    PRETTIER LINKS
+\*------------------------------------*/
+
+a {
+    text-decoration:    none;
+    -webkit-transition: color .2s ease-in-out;
+    transition:         color .2s ease-in-out;
+}
+
+a:link {
+  color: #111;
+  -webkit-transition: color .2s ease-in-out;
+  transition:         color .2s ease-in-out;
+}
+
+a:visited {
+  color: #111;
+}
+
+a:hover   {
+  color: #aaa;
+  -webkit-transition: color .2s ease-in-out;
+  transition:         color .2s ease-in-out;
+}
+
+a:active  {
+  color: #aaa;
+  -webkit-transition: color .2s ease-in-out;
+  transition:         color .2s ease-in-out;
+}
+
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+.wrapper {
+  max-width: 1280px;
+  width: 70%;
+  margin: 0 auto;
+  position: relative; 
+}
+
+.channel {
+  padding: 1.4rem 0 0 2.8rem;
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 2.6rem; 
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+@media (max-width: 640px) {
+  .grid {
+    width: 100%;
+    margin-top: 2rem;
+  } 
+}
