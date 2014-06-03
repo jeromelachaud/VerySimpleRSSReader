@@ -4,7 +4,7 @@
 $host 		= 'host_here';
 $dbname   	= 'database_name_here';
 $username 	= 'username_here';
-$password 	= 'root';
+$password 	= 'password_here';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
