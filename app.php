@@ -6,7 +6,7 @@
 		$rss = simplexml_load_file($feedURL);
 		$title = $rss->channel->title;
 				echo '<div class="channel">';
-				echo'<span class="channel-title"><a href="'.$rss->channel->link.'"><h2>'.$rss->channel->title.'</h2></a></span>';
+				echo'<span class="channel-title"><a href="'.$rss->channel->link.'"><h2>'.$rss->channel->title.'</h2></a><span class="rss-url"><a href="'.$feedURL.'">[feed url]</a></span></span>';
 					$i = 0;
 					foreach ($rss->channel->item as $item) {
 						if($i == $items) break;
