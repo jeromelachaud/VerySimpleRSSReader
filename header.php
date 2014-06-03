@@ -4,6 +4,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>VerySimpleRSSReader</title>
-	<link rel="stylesheet" href="app.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
