@@ -3,7 +3,7 @@ VerySimpleRSSReader
 
 ##### A very simple RSS reader in PHP
 
-See a live example: http://vsrssr.jeromelachaud.com/
+See a live example: http://vsrssr.jeromelachaud.net/
 
 
   - copy the 'config-sample.php' file and rename it 'config.php'
